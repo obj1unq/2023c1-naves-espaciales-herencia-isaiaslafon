@@ -14,7 +14,7 @@ class Nave{ //Clase abstracta por tener al menos un método abstracto
 	}
 	
 	//Método abstracto, esto se define no poniendo cuerpo {}
-	//Ya no se peude isntanciar una Nave!
+	//Ya no se puede isntanciar una Nave!
 	method recibirAmenaza()
 	
 	//Template Method, o método plantilla	
