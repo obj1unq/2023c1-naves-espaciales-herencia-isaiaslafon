@@ -66,7 +66,7 @@ describe "Nave de pasajeros" {
 		assert.equals(300000, naveConPasajeros.velocidad())
 	}
 	
-	test "Al propulsar la nave sin pasajeros queda con la velocidad máxima de 15000" {
+	test "Al preparar la nave sin pasajeros queda con la velocidad máxima de 15000" {
 		naveSinPasajeros.preparar()
 		assert.equals(15000, naveSinPasajeros.velocidad())		
 	}
