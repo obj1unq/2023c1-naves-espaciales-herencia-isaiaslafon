@@ -1,4 +1,4 @@
-class Nave{
+class Nave{ //Clase abstracta por tener al menos un método abstracto
 	var property velocidad = 0
 	
 	method aumentarVelocidad(aumento){
